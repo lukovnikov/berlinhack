@@ -7,8 +7,8 @@ import re
 def run():
     ret = None
     frames = []
-    filter = re.compile(r'.+street\.csv')
-    for root, dirs, files in os.walk("../data/alllondon"):
+    filter = re.compile(r'.+stop-and-search\.csv')
+    for root, dirs, files in os.walk("../data/stop-and-search"):
         path = root.split(os.sep)
         print((len(path) - 1) * '---', os.path.basename(root))
         for file in files:
@@ -21,9 +21,9 @@ def run():
     ret = pd.concat(frames)
     print("merged files contain {} rows".format(len(ret)))
     print(ret)
-    ret.to_csv("../data/all-street-2015.csv")
-    print("saved")
-    lastoutcomes = ret["Last outcome category"]
+    ret.to_csv("../data/all-stop-and-search-2015.csv")
+    print("Saved")
+    lastoutcomes = ret["Outcome"]
     ulastoutcomes = lastoutcomes.unique()
     print(len(ulastoutcomes))
     print(ulastoutcomes)
