@@ -1,146 +1,84 @@
-(lp0
-cpandas.core.indexes.base
-_new_Index
+(dp0
+S'Last outcome category'
 p1
-(cpandas.core.indexes.base
-Index
-p2
-(dp3
-S'data'
-p4
-cnumpy.core.multiarray
-_reconstruct
-p5
-(cnumpy
-ndarray
-p6
-(I0
-tp7
-S'b'
-p8
-tp9
-Rp10
-(I1
-(I14
-tp11
-cnumpy
-dtype
-p12
-(S'O8'
-p13
-I0
-I1
-tp14
-Rp15
-(I3
-S'|'
-p16
-NNNI-1
-I-1
-I63
-tp17
-bI00
-(lp18
-S'Criminal damage and arson'
-p19
-aS'Other theft'
-p20
-aS'Anti-social behaviour'
-p21
-aS'Burglary'
-p22
-aS'Public order'
-p23
-aS'Vehicle crime'
-p24
-aS'Violence and sexual offences'
-p25
-aS'Other crime'
-p26
-aS'Shoplifting'
-p27
-aS'Bicycle theft'
-p28
-aS'Drugs'
-p29
-aS'Theft from the person'
-p30
-aS'Robbery'
-p31
-aS'Possession of weapons'
-p32
-atp33
-bsS'name'
-p34
-Nstp35
-Rp36
-ag1
-(g2
-(dp37
-g4
-g5
-(g6
-(I0
-tp38
-g8
-tp39
-Rp40
-(I1
-(I24
-tp41
-g15
-I00
-(lp42
+(lp2
 S'Status update unavailable'
-p43
+p3
 aS'Investigation complete; no suspect identified'
-p44
+p4
 aS'Defendant found not guilty'
-p45
+p5
 aS'Offender given a caution'
-p46
+p6
 aS'Offender given conditional discharge'
-p47
+p7
 aS'Court result unavailable'
-p48
+p8
 aS'Offender given community sentence'
-p49
+p9
 aS'Offender otherwise dealt with'
-p50
+p10
 aS'Local resolution'
-p51
+p11
 aS'Offender given suspended prison sentence'
-p52
+p12
 aS'Offender sent to prison'
-p53
+p13
 aS'Offender given penalty notice'
-p54
+p14
 aS'Offender given a drugs possession warning'
-p55
+p15
 aS'Court case unable to proceed'
-p56
+p16
 aS'Awaiting court outcome'
-p57
+p17
 aS'Offender fined'
-p58
+p18
 aS'Suspect charged as part of another case'
-p59
+p19
 aS'Offender deprived of property'
-p60
+p20
 aS'Offender ordered to pay compensation'
-p61
+p21
 aS'Offender given absolute discharge'
-p62
+p22
 aS'Formal action is not in the public interest'
-p63
+p23
 aS'Unable to prosecute suspect'
-p64
+p24
 aS'Defendant sent to Crown Court'
-p65
+p25
 aS'Further investigation is not in the public interest'
-p66
-atp67
-bsg34
-Nstp68
-Rp69
-a.
+p26
+asS'Crime type'
+p27
+(lp28
+S'Criminal damage and arson'
+p29
+aS'Other theft'
+p30
+aS'Anti-social behaviour'
+p31
+aS'Burglary'
+p32
+aS'Public order'
+p33
+aS'Vehicle crime'
+p34
+aS'Violence and sexual offences'
+p35
+aS'Other crime'
+p36
+aS'Shoplifting'
+p37
+aS'Bicycle theft'
+p38
+aS'Drugs'
+p39
+aS'Theft from the person'
+p40
+aS'Robbery'
+p41
+aS'Possession of weapons'
+p42
+as.
