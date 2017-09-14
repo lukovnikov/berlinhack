@@ -8,7 +8,9 @@ def run():
     ret = None
     frames = []
     filter = re.compile(r'.+stop-and-search\.csv')
-    for root, dirs, files in os.walk("../data/stop-and-search"):
+
+    for root, dirs, files in os.walk("../data/alllondon"):
+
         path = root.split(os.sep)
         print((len(path) - 1) * '---', os.path.basename(root))
         for file in files:
@@ -22,8 +24,10 @@ def run():
     print("merged files contain {} rows".format(len(ret)))
     print(ret)
     ret.to_csv("../data/all-stop-and-search-2015.csv")
-    print("Saved")
-    lastoutcomes = ret["Outcome"]
+
+    print("saved")
+    lastoutcomes = ret["Last outcome category"]
+
     ulastoutcomes = lastoutcomes.unique()
     print(len(ulastoutcomes))
     print(ulastoutcomes)
